@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	background-color: #d4caca;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #4f4f4f;
+}
+h1,
+h2,
+h3,
+p {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	color: black;
+}
+h1 {
+	font-size: 6rem;
+}
+h2 {
+	font-size: 3rem;
+}
+h3 {
+	font-size: 2rem;
+}
+p {
+	font-size: 2rem;
+}
+section {
+	padding: 4% 0;
+}
+.section-style {
+	text-align: center;
+}
+.followers-style {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+img {
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	.followers-style {
+		margin: 0 2%;
+		display: flex;
+		flex-direction: column;
+	}
+	.pmargin {
+		margin: 2% 0;
+	}
+}
